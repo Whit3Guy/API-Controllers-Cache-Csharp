@@ -1,0 +1,6 @@
+@aprendendo_pizza_HostAddress = http://localhost:5100
+
+GET {{aprendendo_pizza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
