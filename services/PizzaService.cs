@@ -21,7 +21,7 @@ namespace aprendendo_pizza.services
         }
 
         public static void Add(Pizza pizza){
-            nextId++;
+            pizza.id = nextId++;
             Pizzas.Add(pizza);
         }
 
@@ -34,7 +34,7 @@ namespace aprendendo_pizza.services
             if(index is -1){
                 return;
             }
-
+            pizza.id = id;
             Pizzas[index] = pizza;
         }
 

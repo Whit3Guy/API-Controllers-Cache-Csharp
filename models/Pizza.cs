@@ -13,16 +13,3 @@ namespace aprendendo_pizza.models
     }
 }
 
-
-    /**
-    ToDo
-    lista de pizzas
-    nextId
-    constructor
-    {que já cria duas pizzas}
-    Create
-    Read (one and many)
-    Update
-    Delete(With Id)
-    **/
-
